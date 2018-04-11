@@ -184,6 +184,14 @@ extension BrowsingViewController: NSOutlineViewDelegate {
                     textField.stringValue = node.name!
                     textField.sizeToFit()
                 }
+                if let imageView = view?.Icon {
+                    if node.isDir! {
+                        imageView.image = NSImage(named: "Dossier")
+                    } else {
+                        // here provide icons for each supported content-type 
+                        imageView.image = NSImage(named: "Fichier")
+                    }
+                }
                 view?.isDir = node.isDir!
                 view?.PlusButton.isHidden = true
                 view?.PlusButton.target = self

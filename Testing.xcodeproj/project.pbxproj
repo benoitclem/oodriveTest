@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EB571174207E905C00625FDA /* NSButtonAssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB571173207E905C00625FDA /* NSButtonAssociatedObjects.swift */; };
+		EB571183207ECD0500625FDA /* Dossier@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB571181207ECD0500625FDA /* Dossier@3x.png */; };
+		EB571184207ECD0500625FDA /* Fichier@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB571182207ECD0500625FDA /* Fichier@3x.png */; };
+		EB571188207ECFD300625FDA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB571187207ECFD300625FDA /* bg.png */; };
 		EB7AB0FA207BD16F007C5E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AB0F9207BD16F007C5E61 /* AppDelegate.swift */; };
 		EB7AB0FC207BD16F007C5E61 /* BrowsingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AB0FB207BD16F007C5E61 /* BrowsingViewController.swift */; };
 		EB7AB0FE207BD16F007C5E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7AB0FD207BD16F007C5E61 /* Assets.xcassets */; };
@@ -15,8 +18,6 @@
 		EB7AB109207CDB92007C5E61 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AB108207CDB92007C5E61 /* Node.swift */; };
 		EB7AB10B207CF6D8007C5E61 /* OutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AB10A207CF6D8007C5E61 /* OutlineTableViewCell.swift */; };
 		EB7AB10D207D58FA007C5E61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AB10C207D58FA007C5E61 /* LoginViewController.swift */; };
-		EB7CC9A0207D6D6A0034E48C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7CC99E207D6D6A0034E48C /* Alamofire.framework */; };
-		EB7CC9A1207D6D6A0034E48C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7CC99F207D6D6A0034E48C /* SwiftyJSON.framework */; };
 		EB7CC9A2207D6D770034E48C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7CC99E207D6D6A0034E48C /* Alamofire.framework */; };
 		EB7CC9A3207D6D770034E48C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB7CC99E207D6D6A0034E48C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB7CC9A4207D6D770034E48C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7CC99F207D6D6A0034E48C /* SwiftyJSON.framework */; };
@@ -41,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		EB571173207E905C00625FDA /* NSButtonAssociatedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButtonAssociatedObjects.swift; sourceTree = "<group>"; };
+		EB571181207ECD0500625FDA /* Dossier@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dossier@3x.png"; sourceTree = "<group>"; };
+		EB571182207ECD0500625FDA /* Fichier@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fichier@3x.png"; sourceTree = "<group>"; };
+		EB571187207ECFD300625FDA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		EB7AB0F6207BD16F007C5E61 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7AB0F9207BD16F007C5E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7AB0FB207BD16F007C5E61 /* BrowsingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingViewController.swift; sourceTree = "<group>"; };
@@ -61,9 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7CC9A4207D6D770034E48C /* SwiftyJSON.framework in Frameworks */,
-				EB7CC9A1207D6D6A0034E48C /* SwiftyJSON.framework in Frameworks */,
 				EB7CC9A2207D6D770034E48C /* Alamofire.framework in Frameworks */,
-				EB7CC9A0207D6D6A0034E48C /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,15 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				EB7AB0F9207BD16F007C5E61 /* AppDelegate.swift */,
-				EB7CC9A6207D6D7E0034E48C /* oodNetApi.swift */,
-				EB7AB0FB207BD16F007C5E61 /* BrowsingViewController.swift */,
 				EB7AB10C207D58FA007C5E61 /* LoginViewController.swift */,
-				EB7AB0FD207BD16F007C5E61 /* Assets.xcassets */,
-				EB7AB0FF207BD16F007C5E61 /* Main.storyboard */,
-				EB7AB102207BD16F007C5E61 /* Info.plist */,
-				EB7AB108207CDB92007C5E61 /* Node.swift */,
+				EB7AB0FB207BD16F007C5E61 /* BrowsingViewController.swift */,
 				EB7AB10A207CF6D8007C5E61 /* OutlineTableViewCell.swift */,
 				EB571173207E905C00625FDA /* NSButtonAssociatedObjects.swift */,
+				EB7AB108207CDB92007C5E61 /* Node.swift */,
+				EB7CC9A6207D6D7E0034E48C /* oodNetApi.swift */,
+				EB7AB0FF207BD16F007C5E61 /* Main.storyboard */,
+				EB7AB0FD207BD16F007C5E61 /* Assets.xcassets */,
+				EB571187207ECFD300625FDA /* bg.png */,
+				EB571181207ECD0500625FDA /* Dossier@3x.png */,
+				EB571182207ECD0500625FDA /* Fichier@3x.png */,
+				EB7AB102207BD16F007C5E61 /* Info.plist */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -174,7 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB571183207ECD0500625FDA /* Dossier@3x.png in Resources */,
 				EB7AB0FE207BD16F007C5E61 /* Assets.xcassets in Resources */,
+				EB571188207ECFD300625FDA /* bg.png in Resources */,
+				EB571184207ECD0500625FDA /* Fichier@3x.png in Resources */,
 				EB7AB101207BD16F007C5E61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
